@@ -1,0 +1,46 @@
+[
+  {
+    "op": "EyeCustom",
+    "input_desc": [
+      {
+        "name": "y",
+        "param_type": "required",
+        "format": ["ND", "ND", "ND"],
+        "type": ["fp32", "fp16", "int32"]
+      }
+    ],
+    "output_desc": [
+      {
+        "name": "y",
+        "param_type": "required",
+        "format": ["ND", "ND", "ND"],
+        "type": ["fp32", "fp16", "int32"]
+      }
+    ],
+    "attr": [
+      {
+        "name": "num_rows",
+        "param_type": "required",
+        "type": "int"
+      },
+      {
+        "name": "num_columns",
+        "param_type": "optional",
+        "type": "int",
+        "default_value": 0
+      },
+      {
+        "name": "batch_shape",
+        "param_type": "optional",
+        "type": "list_int",
+        "default_value": {}
+      },
+      {
+        "name": "dtype",
+        "param_type": "optional",
+        "type": "int",
+        "default_value": 0
+      }
+    ]
+  }
+]

@@ -1,0 +1,272 @@
+{
+  "binList": [
+    {
+      "implMode": "high_performance",
+      "int64Mode": false,
+      "simplifiedKeyMode": 0,
+      "simplifiedKey": [
+        "EyeCustom/d=0,p=1/11,2/11,2",
+        "EyeCustom/d=0,p=0/11,2/11,2",
+        "EyeCustom/d=1,p=1/11,2/11,2",
+        "EyeCustom/d=1,p=0/11,2/11,2"
+      ],
+      "staticKey": "41f45a55d86d9881bb5083ab8ccb40b6788a22427682fc52a54b8896e0f01b52,41bcc516f3bdb7e01323fbc8287ba42b6bec70e93eee4211670382313c125ec9",
+      "inputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "dtype": "double",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "dtype": "double",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "attrs": [
+        {
+          "name": "num_rows",
+          "dtype": "int",
+          "value": 0
+        },
+        {
+          "name": "num_columns",
+          "dtype": "int",
+          "value": 0
+        },
+        {
+          "name": "batch_shape",
+          "dtype": "list_int",
+          "value": []
+        },
+        {
+          "name": "dtype",
+          "dtype": "int",
+          "value": 0
+        }
+      ],
+      "opMode": "dynamic",
+      "optionalInputMode": "gen_placeholder",
+      "deterministic": "ignore",
+      "optionalOutputMode": "gen_placeholder",
+      "binInfo": {
+        "jsonFilePath": "ascend910b/eye_custom/EyeCustom_4dd1c0e5181f25621906c20655ef8e5c.json"
+      }
+    },
+    {
+      "implMode": "high_performance",
+      "int64Mode": false,
+      "simplifiedKeyMode": 0,
+      "simplifiedKey": [
+        "EyeCustom/d=0,p=1/3,2/3,2",
+        "EyeCustom/d=0,p=0/3,2/3,2",
+        "EyeCustom/d=1,p=1/3,2/3,2",
+        "EyeCustom/d=1,p=0/3,2/3,2"
+      ],
+      "staticKey": "54b1411c3c5198db41359ed89481b97e922b5da981f9f8a56b37448366a8012c,d6fa404cdfb09dd3f4c69df40360f6d18f9ec18e08a28e793bbdacd554681688",
+      "inputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "dtype": "int32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "dtype": "int32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "attrs": [
+        {
+          "name": "num_rows",
+          "dtype": "int",
+          "value": 0
+        },
+        {
+          "name": "num_columns",
+          "dtype": "int",
+          "value": 0
+        },
+        {
+          "name": "batch_shape",
+          "dtype": "list_int",
+          "value": []
+        },
+        {
+          "name": "dtype",
+          "dtype": "int",
+          "value": 0
+        }
+      ],
+      "opMode": "dynamic",
+      "optionalInputMode": "gen_placeholder",
+      "deterministic": "ignore",
+      "optionalOutputMode": "gen_placeholder",
+      "binInfo": {
+        "jsonFilePath": "ascend910b/eye_custom/EyeCustom_b41bf8c462119f9488d2db91247c5b20.json"
+      }
+    },
+    {
+      "implMode": "high_performance",
+      "int64Mode": false,
+      "simplifiedKeyMode": 0,
+      "simplifiedKey": [
+        "EyeCustom/d=0,p=1/1,2/1,2",
+        "EyeCustom/d=0,p=0/1,2/1,2",
+        "EyeCustom/d=1,p=1/1,2/1,2",
+        "EyeCustom/d=1,p=0/1,2/1,2"
+      ],
+      "staticKey": "315c324913f875ebdc29576f09bafb7a443c5854c9c9f934c6a672fe20d0fea6,b7cbd7bc5c9d0b34807fd6b871eb8cb9cbfa7de6eb17432c4f659942bf03c427",
+      "inputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "attrs": [
+        {
+          "name": "num_rows",
+          "dtype": "int",
+          "value": 0
+        },
+        {
+          "name": "num_columns",
+          "dtype": "int",
+          "value": 0
+        },
+        {
+          "name": "batch_shape",
+          "dtype": "list_int",
+          "value": []
+        },
+        {
+          "name": "dtype",
+          "dtype": "int",
+          "value": 0
+        }
+      ],
+      "opMode": "dynamic",
+      "optionalInputMode": "gen_placeholder",
+      "deterministic": "ignore",
+      "optionalOutputMode": "gen_placeholder",
+      "binInfo": {
+        "jsonFilePath": "ascend910b/eye_custom/EyeCustom_d6ddad1f99a7e49ac81b903065af8877.json"
+      }
+    },
+    {
+      "implMode": "high_performance",
+      "int64Mode": false,
+      "simplifiedKeyMode": 0,
+      "simplifiedKey": [
+        "EyeCustom/d=0,p=1/0,2/0,2",
+        "EyeCustom/d=0,p=0/0,2/0,2",
+        "EyeCustom/d=1,p=1/0,2/0,2",
+        "EyeCustom/d=1,p=0/0,2/0,2"
+      ],
+      "staticKey": "404c0ee4766381a6578b17ecff04fb05288b112b08d40802e5a61627aa6a5dd4,6592a999aea4872052e4fe74791183df3516c4f07ed60228e1dcb2acc6da96e9",
+      "inputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "attrs": [
+        {
+          "name": "num_rows",
+          "dtype": "int",
+          "value": 0
+        },
+        {
+          "name": "num_columns",
+          "dtype": "int",
+          "value": 0
+        },
+        {
+          "name": "batch_shape",
+          "dtype": "list_int",
+          "value": []
+        },
+        {
+          "name": "dtype",
+          "dtype": "int",
+          "value": 0
+        }
+      ],
+      "opMode": "dynamic",
+      "optionalInputMode": "gen_placeholder",
+      "deterministic": "ignore",
+      "optionalOutputMode": "gen_placeholder",
+      "binInfo": {
+        "jsonFilePath": "ascend910b/eye_custom/EyeCustom_fc8cbc9942632392eefdd86e355c4c51.json"
+      }
+    }
+  ]
+}

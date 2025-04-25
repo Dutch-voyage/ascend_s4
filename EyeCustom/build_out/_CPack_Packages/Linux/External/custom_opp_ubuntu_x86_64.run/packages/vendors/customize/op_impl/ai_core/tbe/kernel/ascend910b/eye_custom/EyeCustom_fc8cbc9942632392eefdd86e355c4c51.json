@@ -1,0 +1,100 @@
+{
+ "binFileName": "EyeCustom_fc8cbc9942632392eefdd86e355c4c51",
+ "binFileSuffix": ".o",
+ "blockDim": -1,
+ "coreType": "VectorCore",
+ "core_type": "AIV",
+ "intercoreSync": 0,
+ "kernelName": "EyeCustom_fc8cbc9942632392eefdd86e355c4c51",
+ "magic": "RT_DEV_BINARY_MAGIC_ELF_AIVEC",
+ "memoryStamping": [],
+ "opParaSize": 40,
+ "parameters": [
+  null,
+  null,
+  null
+ ],
+ "sha256": "8899fcd1cf53358685da554b3665041a1fd2670d29803640af56415e8e7fbe2a",
+ "workspace": {
+  "num": 1,
+  "size": [
+   -1
+  ],
+  "type": [
+   0
+  ]
+ },
+ "kernelList": [
+  {
+   "kernelName": "EyeCustom_fc8cbc9942632392eefdd86e355c4c51_0"
+  }
+ ],
+ "optionalInputMode": "gen_placeholder",
+ "optionalOutputMode": "gen_placeholder",
+ "compileInfo": {},
+ "supportInfo": {
+  "implMode": "high_performance",
+  "int64Mode": false,
+  "simplifiedKeyMode": 0,
+  "simplifiedKey": [
+   "EyeCustom/d=0,p=1/0,2/0,2",
+   "EyeCustom/d=0,p=0/0,2/0,2",
+   "EyeCustom/d=1,p=1/0,2/0,2",
+   "EyeCustom/d=1,p=0/0,2/0,2"
+  ],
+  "optionalInputMode": "gen_placeholder",
+  "optionalOutputMode": "gen_placeholder",
+  "staticKey": "404c0ee4766381a6578b17ecff04fb05288b112b08d40802e5a61627aa6a5dd4,6592a999aea4872052e4fe74791183df3516c4f07ed60228e1dcb2acc6da96e9",
+  "inputs": [
+   {
+    "name": "y",
+    "index": 0,
+    "dtype": "float32",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   }
+  ],
+  "outputs": [
+   {
+    "name": "y",
+    "index": 0,
+    "dtype": "float32",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   }
+  ],
+  "attrs": [
+   {
+    "name": "num_rows",
+    "dtype": "int",
+    "value": 0
+   },
+   {
+    "name": "num_columns",
+    "dtype": "int",
+    "value": 0
+   },
+   {
+    "name": "batch_shape",
+    "dtype": "list_int",
+    "value": []
+   },
+   {
+    "name": "dtype",
+    "dtype": "int",
+    "value": 0
+   }
+  ],
+  "opMode": "dynamic",
+  "deterministic": "ignore"
+ },
+ "filePath": "ascend910b/bin/eye_custom/EyeCustom_fc8cbc9942632392eefdd86e355c4c51.json"
+}

@@ -1,0 +1,56 @@
+{
+  "op_type": "EyeCustom",
+  "op_list": [
+    {
+      "bin_filename": "EyeCustom_4dd1c0e5181f25621906c20655ef8e5c",
+      "inputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "dtype": "double",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "dtype": "double",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "attrs": [
+        {
+          "name": "num_rows",
+          "dtype": "int",
+          "value": 0
+        },
+        {
+          "name": "num_columns",
+          "dtype": "int",
+          "value": 0
+        },
+        {
+          "name": "batch_shape",
+          "dtype": "list_int",
+          "value": []
+        },
+        {
+          "name": "dtype",
+          "dtype": "int",
+          "value": 0
+        }
+      ]
+    }
+  ]
+}

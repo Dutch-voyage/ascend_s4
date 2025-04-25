@@ -1,0 +1,7 @@
+/home/yyx/ascend/competition/AclNNInvocation/build/CMakeFiles/execute_op.dir
+/home/yyx/ascend/competition/AclNNInvocation/build/CMakeFiles/edit_cache.dir
+/home/yyx/ascend/competition/AclNNInvocation/build/CMakeFiles/rebuild_cache.dir
+/home/yyx/ascend/competition/AclNNInvocation/build/CMakeFiles/list_install_components.dir
+/home/yyx/ascend/competition/AclNNInvocation/build/CMakeFiles/install.dir
+/home/yyx/ascend/competition/AclNNInvocation/build/CMakeFiles/install/local.dir
+/home/yyx/ascend/competition/AclNNInvocation/build/CMakeFiles/install/strip.dir
