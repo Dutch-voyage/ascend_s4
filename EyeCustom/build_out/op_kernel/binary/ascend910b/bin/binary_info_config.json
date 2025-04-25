@@ -1,0 +1,86 @@
+{
+  "EyeCustom": {
+    "dynamicRankSupport": true,
+    "simplifiedKeyMode": 0,
+    "optionalInputMode": "gen_placeholder",
+    "optionalOutputMode": "gen_placeholder",
+    "params": {
+      "inputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "paramType": "required",
+          "formatMode": "static_nd_agnostic"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "paramType": "required",
+          "formatMode": "static_nd_agnostic"
+        }
+      ],
+      "attrs": [
+        {
+          "name": "num_rows"
+        },
+        {
+          "name": "num_columns"
+        },
+        {
+          "name": "batch_shape"
+        },
+        {
+          "name": "dtype"
+        }
+      ]
+    },
+    "binaryList": [
+      {
+        "coreType": 2,
+        "simplifiedKey": [
+          "EyeCustom/d=0,p=1/11,2/11,2",
+          "EyeCustom/d=0,p=0/11,2/11,2",
+          "EyeCustom/d=1,p=1/11,2/11,2",
+          "EyeCustom/d=1,p=0/11,2/11,2"
+        ],
+        "binPath": "ascend910b/eye_custom/EyeCustom_4dd1c0e5181f25621906c20655ef8e5c.o",
+        "jsonPath": "ascend910b/eye_custom/EyeCustom_4dd1c0e5181f25621906c20655ef8e5c.json"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": [
+          "EyeCustom/d=0,p=1/3,2/3,2",
+          "EyeCustom/d=0,p=0/3,2/3,2",
+          "EyeCustom/d=1,p=1/3,2/3,2",
+          "EyeCustom/d=1,p=0/3,2/3,2"
+        ],
+        "binPath": "ascend910b/eye_custom/EyeCustom_b41bf8c462119f9488d2db91247c5b20.o",
+        "jsonPath": "ascend910b/eye_custom/EyeCustom_b41bf8c462119f9488d2db91247c5b20.json"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": [
+          "EyeCustom/d=0,p=1/1,2/1,2",
+          "EyeCustom/d=0,p=0/1,2/1,2",
+          "EyeCustom/d=1,p=1/1,2/1,2",
+          "EyeCustom/d=1,p=0/1,2/1,2"
+        ],
+        "binPath": "ascend910b/eye_custom/EyeCustom_d6ddad1f99a7e49ac81b903065af8877.o",
+        "jsonPath": "ascend910b/eye_custom/EyeCustom_d6ddad1f99a7e49ac81b903065af8877.json"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": [
+          "EyeCustom/d=0,p=1/0,2/0,2",
+          "EyeCustom/d=0,p=0/0,2/0,2",
+          "EyeCustom/d=1,p=1/0,2/0,2",
+          "EyeCustom/d=1,p=0/0,2/0,2"
+        ],
+        "binPath": "ascend910b/eye_custom/EyeCustom_fc8cbc9942632392eefdd86e355c4c51.o",
+        "jsonPath": "ascend910b/eye_custom/EyeCustom_fc8cbc9942632392eefdd86e355c4c51.json"
+      }
+    ]
+  }
+}
